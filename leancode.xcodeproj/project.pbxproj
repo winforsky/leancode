@@ -15,6 +15,11 @@
 		677085D022B49374006D4D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 677085CF22B49374006D4D8D /* main.m */; };
 		677085DA22B49374006D4D8D /* leancodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677085D922B49374006D4D8D /* leancodeTests.m */; };
 		677085E522B49374006D4D8D /* leancodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 677085E422B49374006D4D8D /* leancodeUITests.m */; };
+		677E599C22B4999200ABFDB8 /* SILeanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 677E599B22B4999200ABFDB8 /* SILeanManager.m */; };
+		677E599F22B4CE0900ABFDB8 /* SILeanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677E599E22B4CE0900ABFDB8 /* SILeanViewController.m */; };
+		859A9415BB14D68643512E44 /* libPods-leancodeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ECA76C149F49483AE31222 /* libPods-leancodeUITests.a */; };
+		CE31C225122D3BA34A398F9E /* libPods-leancodeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD742AE48BC143A292AEABE8 /* libPods-leancodeTests.a */; };
+		FE5E7F9E5D334667972DECE0 /* libPods-leancode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8FB800FBCFF84FE8F036B0 /* libPods-leancode.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15AD757298C60113BC318FE2 /* Pods-leancodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leancodeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-leancodeUITests/Pods-leancodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		232FB22FA9DE3B4B43E131A8 /* Pods-leancode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leancode.release.xcconfig"; path = "Pods/Target Support Files/Pods-leancode/Pods-leancode.release.xcconfig"; sourceTree = "<group>"; };
+		2B8FB800FBCFF84FE8F036B0 /* libPods-leancode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leancode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9AE298B58CF06B3FAC1C4D /* Pods-leancodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leancodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-leancodeTests/Pods-leancodeTests.release.xcconfig"; sourceTree = "<group>"; };
 		677085BD22B49373006D4D8D /* leancode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leancode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		677085C022B49373006D4D8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		677085C122B49373006D4D8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		677085E022B49374006D4D8D /* leancodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leancodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		677085E422B49374006D4D8D /* leancodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leancodeUITests.m; sourceTree = "<group>"; };
 		677085E622B49374006D4D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677E599A22B4999200ABFDB8 /* SILeanManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SILeanManager.h; sourceTree = "<group>"; };
+		677E599B22B4999200ABFDB8 /* SILeanManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SILeanManager.m; sourceTree = "<group>"; };
+		677E599D22B4CE0900ABFDB8 /* SILeanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SILeanViewController.h; sourceTree = "<group>"; };
+		677E599E22B4CE0900ABFDB8 /* SILeanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SILeanViewController.m; sourceTree = "<group>"; };
+		7B13BEF6372450D0A2E6EE07 /* Pods-leancode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leancode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leancode/Pods-leancode.debug.xcconfig"; sourceTree = "<group>"; };
+		AD742AE48BC143A292AEABE8 /* libPods-leancodeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leancodeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B091D189F9F25A1BCDD6D0E2 /* Pods-leancodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leancodeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leancodeUITests/Pods-leancodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2ECA76C149F49483AE31222 /* libPods-leancodeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leancodeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D640779A8B9300CEEF6FE712 /* Pods-leancodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leancodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leancodeTests/Pods-leancodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5E7F9E5D334667972DECE0 /* libPods-leancode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE31C225122D3BA34A398F9E /* libPods-leancodeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859A9415BB14D68643512E44 /* libPods-leancodeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				677085D822B49374006D4D8D /* leancodeTests */,
 				677085E322B49374006D4D8D /* leancodeUITests */,
 				677085BE22B49373006D4D8D /* Products */,
+				D44BF45DCEB455FC16092CB3 /* Pods */,
+				F468579DBBC96C6846FBEE5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,7 @@
 		677085BF22B49373006D4D8D /* leancode */ = {
 			isa = PBXGroup;
 			children = (
+				677E599922B4998600ABFDB8 /* lean */,
 				677085C022B49373006D4D8D /* AppDelegate.h */,
 				677085C122B49373006D4D8D /* AppDelegate.m */,
 				677085C322B49373006D4D8D /* ViewController.h */,
@@ -132,6 +156,40 @@
 			path = leancodeUITests;
 			sourceTree = "<group>";
 		};
+		677E599922B4998600ABFDB8 /* lean */ = {
+			isa = PBXGroup;
+			children = (
+				677E599A22B4999200ABFDB8 /* SILeanManager.h */,
+				677E599B22B4999200ABFDB8 /* SILeanManager.m */,
+				677E599D22B4CE0900ABFDB8 /* SILeanViewController.h */,
+				677E599E22B4CE0900ABFDB8 /* SILeanViewController.m */,
+			);
+			path = lean;
+			sourceTree = "<group>";
+		};
+		D44BF45DCEB455FC16092CB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B13BEF6372450D0A2E6EE07 /* Pods-leancode.debug.xcconfig */,
+				232FB22FA9DE3B4B43E131A8 /* Pods-leancode.release.xcconfig */,
+				D640779A8B9300CEEF6FE712 /* Pods-leancodeTests.debug.xcconfig */,
+				4C9AE298B58CF06B3FAC1C4D /* Pods-leancodeTests.release.xcconfig */,
+				B091D189F9F25A1BCDD6D0E2 /* Pods-leancodeUITests.debug.xcconfig */,
+				15AD757298C60113BC318FE2 /* Pods-leancodeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F468579DBBC96C6846FBEE5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B8FB800FBCFF84FE8F036B0 /* libPods-leancode.a */,
+				AD742AE48BC143A292AEABE8 /* libPods-leancodeTests.a */,
+				B2ECA76C149F49483AE31222 /* libPods-leancodeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 677085E922B49374006D4D8D /* Build configuration list for PBXNativeTarget "leancode" */;
 			buildPhases = (
+				4A9E49052CD4A8064BBD2976 /* [CP] Check Pods Manifest.lock */,
 				677085B922B49373006D4D8D /* Sources */,
 				677085BA22B49373006D4D8D /* Frameworks */,
 				677085BB22B49373006D4D8D /* Resources */,
+				9B195DBB4A868E1400D3BEA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 677085EC22B49374006D4D8D /* Build configuration list for PBXNativeTarget "leancodeTests" */;
 			buildPhases = (
+				3615BEC2412F5D03C09B35A8 /* [CP] Check Pods Manifest.lock */,
 				677085D122B49374006D4D8D /* Sources */,
 				677085D222B49374006D4D8D /* Frameworks */,
 				677085D322B49374006D4D8D /* Resources */,
@@ -174,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 677085EF22B49374006D4D8D /* Build configuration list for PBXNativeTarget "leancodeUITests" */;
 			buildPhases = (
+				CE4F4F56C799D340BAC9A0F3 /* [CP] Check Pods Manifest.lock */,
 				677085DC22B49374006D4D8D /* Sources */,
 				677085DD22B49374006D4D8D /* Frameworks */,
 				677085DE22B49374006D4D8D /* Resources */,
@@ -257,13 +319,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3615BEC2412F5D03C09B35A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-leancodeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A9E49052CD4A8064BBD2976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-leancode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B195DBB4A868E1400D3BEA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-leancode/Pods-leancode-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leancode/Pods-leancode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4F4F56C799D340BAC9A0F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-leancodeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		677085B922B49373006D4D8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				677085C522B49373006D4D8D /* ViewController.m in Sources */,
+				677E599C22B4999200ABFDB8 /* SILeanManager.m in Sources */,
 				677085D022B49374006D4D8D /* main.m in Sources */,
+				677E599F22B4CE0900ABFDB8 /* SILeanViewController.m in Sources */,
 				677085C222B49373006D4D8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +588,12 @@
 		};
 		677085EA22B49374006D4D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B13BEF6372450D0A2E6EE07 /* Pods-leancode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = leancode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +606,12 @@
 		};
 		677085EB22B49374006D4D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232FB22FA9DE3B4B43E131A8 /* Pods-leancode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = leancode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +624,7 @@
 		};
 		677085ED22B49374006D4D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D640779A8B9300CEEF6FE712 /* Pods-leancodeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +643,7 @@
 		};
 		677085EE22B49374006D4D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9AE298B58CF06B3FAC1C4D /* Pods-leancodeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +662,7 @@
 		};
 		677085F022B49374006D4D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B091D189F9F25A1BCDD6D0E2 /* Pods-leancodeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = leancodeUITests/Info.plist;
@@ -518,6 +680,7 @@
 		};
 		677085F122B49374006D4D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AD757298C60113BC318FE2 /* Pods-leancodeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = leancodeUITests/Info.plist;

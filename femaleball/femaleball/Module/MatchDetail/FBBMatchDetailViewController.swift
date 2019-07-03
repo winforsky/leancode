@@ -29,6 +29,10 @@ class FBBMatchDetailViewController: FBBBaseViewController {
     }
     */
 
+    override func customUI() {
+        super.customUI()
+        title = "比赛详情";
+    }
 }
 
 extension FBBMatchDetailViewController: UITableViewDataSource {

@@ -26,5 +26,8 @@ class FBBHelperViewController: FBBBaseViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    override func customUI() {
+        super.customUI()
+        title = "帮助";
+    }
 }

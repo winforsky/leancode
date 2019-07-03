@@ -29,6 +29,10 @@ class FBBMatchHistoryViewController: FBBBaseViewController {
     }
     */
 
+    override func customUI() {
+        super.customUI()
+        title = "历史记录";
+    }
 }
 
 extension FBBMatchHistoryViewController: UITableViewDataSource {

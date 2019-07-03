@@ -14,6 +14,7 @@ class FBBBaseViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        customUI()
     }
     
 
@@ -26,5 +27,8 @@ class FBBBaseViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    func customUI() {
+        //implements in subclass
+    }
 }

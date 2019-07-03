@@ -548,6 +548,15 @@
                                                     <outletCollection property="gestureRecognizers" destination="2RD-AO-Bnq" appends="YES" id="gfE-HJ-k1P"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z3-RT-q3L">
+                                                <rect key="frame" x="90" y="25" width="119" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                                <state key="normal" title="长按停止"/>
+                                                <connections>
+                                                    <action selector="lookHistory:" destination="hTp-ZY-l3O" eventType="touchUpInside" id="wLs-z4-IMj"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <gestureRecognizers/>
@@ -593,6 +602,7 @@
                         <outlet property="backNowButton" destination="wzF-TD-qgs" id="xFw-VW-K8z"/>
                         <outlet property="leftPlayerLabel" destination="qoe-7T-f1G" id="evA-zw-DiD"/>
                         <outlet property="leftScoreLabel" destination="YQ9-2d-2ac" id="my7-Kn-Oty"/>
+                        <outlet property="lookHistoryButton" destination="8z3-RT-q3L" id="2Id-8y-tP1"/>
                         <outlet property="rightPlayerLabel" destination="zk1-Iq-LKR" id="lCi-DK-YKk"/>
                         <outlet property="rightScoreLabel" destination="VYk-Q6-a6H" id="oDi-LP-fta"/>
                         <outlet property="stopNowButton" destination="xWM-4g-OHw" id="6so-fN-AOk"/>

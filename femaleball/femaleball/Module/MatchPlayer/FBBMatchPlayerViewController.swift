@@ -21,7 +21,7 @@ class FBBMatchPlayerViewController: FBBBaseViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        addRightBarButtonItem()
+                
     }
     
 
@@ -35,12 +35,17 @@ class FBBMatchPlayerViewController: FBBBaseViewController {
     }
     */
     
+    override func customUI() {
+        super.customUI()
+        title = "选择比赛队";
+        addRightBarButtonItem()
+    }
+    
     func addRightBarButtonItem() {
         //#selector(startPlay) 转而使用@objc封装的方法
         let rightItem = UIBarButtonItem(title: "开始", style: .plain, target: self, action: #selector(startPlay));
         navigationItem.rightBarButtonItem=rightItem
     }
-    
     
     @objc func startPlay() {
         let destVC : UIViewController? = FBBUtil.shareInsatance.loadVCFromStoryboard(withIdentifier: "FBBMatchViewController", storyboardName: "Main", bundle: nil)

@@ -11,34 +11,18 @@ import UIKit
 class FBBMatchViewController: FBBBaseViewController {
     
     @IBOutlet weak var leftPlayerLabel: UILabel!
-    
     @IBOutlet weak var leftScoreLabel: UILabel!
-    
     @IBOutlet weak var rightPlayerLabel: UILabel!
-    
     @IBOutlet weak var rightScoreLabel: UILabel!
-    
     @IBOutlet weak var backNowButton: UIButton!
     @IBOutlet weak var stopNowButton: UIButton!
+    @IBOutlet weak var lookHistoryButton: UIButton!
     
     var leftTotalScore = 0
     var rightTotalScore = 0
     
-    @IBAction func addScore(_ sender: UIButton) {
-        if(sender.tag > 20){
-            //右边的加分
-            rightTotalScore = rightTotalScore + (sender.tag - 20)
-            rightScoreLabel.text = "\(rightTotalScore)"
-        }else if(sender.tag > 10){
-            //左边的加分
-            leftTotalScore = leftTotalScore + (sender.tag - 10)
-            leftScoreLabel.text = "\(leftTotalScore)"
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
         self.backNowButton.isEnabled=false;
     }
@@ -59,7 +43,6 @@ class FBBMatchViewController: FBBBaseViewController {
     }
     
     @IBAction func stopNow(_ sender: Any) {
-        
         let alertController = UIAlertController(title: "确认操作", message: "确定结束比赛吗？", preferredStyle: .alert)
         
         alertController.addAction(UIAlertAction(title: "不小心点错了", style: .cancel, handler: { (action) in
@@ -75,12 +58,30 @@ class FBBMatchViewController: FBBBaseViewController {
         }))
         
         self.present(alertController, animated: true) {
-            
         }
     }
     
     @IBAction func backNow(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
+    @IBAction func lookHistory(_ sender: Any) {
+        let destVC : UIViewController? = FBBUtil.shareInsatance.loadVCFromStoryboard(withIdentifier: "FBBMatchDetailViewController", storyboardName: "Main", bundle: nil)
+        if let toVC = destVC {
+            self.navigationController?.pushViewController(toVC, animated: true)
+        }
+    }
+    
+    @IBAction func addScore(_ sender: UIButton) {
+        if(sender.tag > 20){
+            //右边的加分
+            rightTotalScore = rightTotalScore + (sender.tag - 20)
+            rightScoreLabel.text = "\(rightTotalScore)"
+        }else if(sender.tag > 10){
+            //左边的加分
+            leftTotalScore = leftTotalScore + (sender.tag - 10)
+            leftScoreLabel.text = "\(leftTotalScore)"
+        }
     }
     /*
     // MARK: - Navigation

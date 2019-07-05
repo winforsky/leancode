@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1178D6E9A934B2AF4C2C6F55 /* Pods_femaleballTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDAA3F352F6F027790A951B /* Pods_femaleballTests.framework */; };
+		3D6AE776050E4DB93AC2C1A1 /* Pods_femaleball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42201F1131C93A1C9966735 /* Pods_femaleball.framework */; };
+		5892CC94484D4B7953F7D1A9 /* Pods_femaleballUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0E5975EE3774BE9CD9D843 /* Pods_femaleballUITests.framework */; };
 		672CDAD722CAFFEC00D46B7F /* FBBMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672CDAD622CAFFEC00D46B7F /* FBBMatchViewController.swift */; };
 		672CDAD922CAFFFB00D46B7F /* FBBMatchHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672CDAD822CAFFFB00D46B7F /* FBBMatchHistoryViewController.swift */; };
 		672CDADB22CB000B00D46B7F /* FBBMatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672CDADA22CB000B00D46B7F /* FBBMatchDetailViewController.swift */; };
@@ -44,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DF5DA9D2522CE08E460D8BF /* Pods-femaleball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-femaleball.debug.xcconfig"; path = "Pods/Target Support Files/Pods-femaleball/Pods-femaleball.debug.xcconfig"; sourceTree = "<group>"; };
+		37E8E49A479BF0B8E35C047D /* Pods-femaleball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-femaleball.release.xcconfig"; path = "Pods/Target Support Files/Pods-femaleball/Pods-femaleball.release.xcconfig"; sourceTree = "<group>"; };
+		3FFE56AEBE22AE7EBA885553 /* Pods-femaleballUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-femaleballUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-femaleballUITests/Pods-femaleballUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		672CDAD622CAFFEC00D46B7F /* FBBMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBMatchViewController.swift; sourceTree = "<group>"; };
 		672CDAD822CAFFFB00D46B7F /* FBBMatchHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBMatchHistoryViewController.swift; sourceTree = "<group>"; };
 		672CDADA22CB000B00D46B7F /* FBBMatchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBBMatchDetailViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +73,12 @@
 		67ADD85522CA198B006CBEE9 /* femaleballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = femaleballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67ADD85922CA198B006CBEE9 /* femaleballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = femaleballUITests.swift; sourceTree = "<group>"; };
 		67ADD85B22CA198B006CBEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDAA3F352F6F027790A951B /* Pods_femaleballTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_femaleballTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD62E9E6280183A43AC41B6 /* Pods-femaleballTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-femaleballTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-femaleballTests/Pods-femaleballTests.release.xcconfig"; sourceTree = "<group>"; };
+		A656F968A6DBC3E6BA78693E /* Pods-femaleballUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-femaleballUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-femaleballUITests/Pods-femaleballUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F42201F1131C93A1C9966735 /* Pods_femaleball.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_femaleball.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0E5975EE3774BE9CD9D843 /* Pods_femaleballUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_femaleballUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5B58ECEC9B98FD39455147 /* Pods-femaleballTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-femaleballTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-femaleballTests/Pods-femaleballTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6AE776050E4DB93AC2C1A1 /* Pods_femaleball.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1178D6E9A934B2AF4C2C6F55 /* Pods_femaleballTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +102,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5892CC94484D4B7953F7D1A9 /* Pods_femaleballUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39F340B70D396CC6AAF4AF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F42201F1131C93A1C9966735 /* Pods_femaleball.framework */,
+				7EDAA3F352F6F027790A951B /* Pods_femaleballTests.framework */,
+				FD0E5975EE3774BE9CD9D843 /* Pods_femaleballUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		672CDAD022CAFFCA00D46B7F /* Module */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +205,8 @@
 				67ADD84D22CA198B006CBEE9 /* femaleballTests */,
 				67ADD85822CA198B006CBEE9 /* femaleballUITests */,
 				67ADD83722CA1984006CBEE9 /* Products */,
+				6B7FA74218A4A4A8E07A621E /* Pods */,
+				39F340B70D396CC6AAF4AF9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,6 +254,19 @@
 			path = femaleballUITests;
 			sourceTree = "<group>";
 		};
+		6B7FA74218A4A4A8E07A621E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5DA9D2522CE08E460D8BF /* Pods-femaleball.debug.xcconfig */,
+				37E8E49A479BF0B8E35C047D /* Pods-femaleball.release.xcconfig */,
+				FE5B58ECEC9B98FD39455147 /* Pods-femaleballTests.debug.xcconfig */,
+				9BD62E9E6280183A43AC41B6 /* Pods-femaleballTests.release.xcconfig */,
+				3FFE56AEBE22AE7EBA885553 /* Pods-femaleballUITests.debug.xcconfig */,
+				A656F968A6DBC3E6BA78693E /* Pods-femaleballUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67ADD85E22CA198B006CBEE9 /* Build configuration list for PBXNativeTarget "femaleball" */;
 			buildPhases = (
+				A31A0776A5D3C8DFBF2B4103 /* [CP] Check Pods Manifest.lock */,
 				67ADD83222CA1984006CBEE9 /* Sources */,
 				67ADD83322CA1984006CBEE9 /* Frameworks */,
 				67ADD83422CA1984006CBEE9 /* Resources */,
+				4362AA7838A5BC99186DAF47 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67ADD86122CA198B006CBEE9 /* Build configuration list for PBXNativeTarget "femaleballTests" */;
 			buildPhases = (
+				A7B5B749CE71F11A56E83F43 /* [CP] Check Pods Manifest.lock */,
 				67ADD84622CA198B006CBEE9 /* Sources */,
 				67ADD84722CA198B006CBEE9 /* Frameworks */,
 				67ADD84822CA198B006CBEE9 /* Resources */,
@@ -269,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67ADD86422CA198B006CBEE9 /* Build configuration list for PBXNativeTarget "femaleballUITests" */;
 			buildPhases = (
+				485BCDBBC226942A8A7E321A /* [CP] Check Pods Manifest.lock */,
 				67ADD85122CA198B006CBEE9 /* Sources */,
 				67ADD85222CA198B006CBEE9 /* Frameworks */,
 				67ADD85322CA198B006CBEE9 /* Resources */,
@@ -353,6 +397,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4362AA7838A5BC99186DAF47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-femaleball/Pods-femaleball-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-femaleball/Pods-femaleball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485BCDBBC226942A8A7E321A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-femaleballUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31A0776A5D3C8DFBF2B4103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-femaleball-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B5B749CE71F11A56E83F43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-femaleballTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67ADD83222CA1984006CBEE9 /* Sources */ = {
@@ -543,6 +680,7 @@
 		};
 		67ADD85F22CA198B006CBEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF5DA9D2522CE08E460D8BF /* Pods-femaleball.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +698,7 @@
 		};
 		67ADD86022CA198B006CBEE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E8E49A479BF0B8E35C047D /* Pods-femaleball.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -577,6 +716,7 @@
 		};
 		67ADD86222CA198B006CBEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5B58ECEC9B98FD39455147 /* Pods-femaleballTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -597,6 +737,7 @@
 		};
 		67ADD86322CA198B006CBEE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD62E9E6280183A43AC41B6 /* Pods-femaleballTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -617,6 +758,7 @@
 		};
 		67ADD86522CA198B006CBEE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFE56AEBE22AE7EBA885553 /* Pods-femaleballUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -636,6 +778,7 @@
 		};
 		67ADD86622CA198B006CBEE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A656F968A6DBC3E6BA78693E /* Pods-femaleballUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

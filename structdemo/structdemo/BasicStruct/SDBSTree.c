@@ -10,8 +10,6 @@
 //xcode 中使用标准C的函数时使用
 #include <stdlib.h>
 
-
-
 /**
  初始化
 

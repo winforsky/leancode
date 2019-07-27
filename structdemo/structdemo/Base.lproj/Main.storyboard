@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,84 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IFj-q9-R8b">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMo-gz-cVq">
+                                        <rect key="frame" x="153" y="535" width="108" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="DaE-bb-S68"/>
+                                        </constraints>
+                                        <state key="normal" title="国内手机号检测"/>
+                                        <connections>
+                                            <action selector="checkChinaPhone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4dH-6g-vIV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAP-Aa-31H">
+                                        <rect key="frame" x="153" y="461" width="108" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="z9d-db-KFh"/>
+                                        </constraints>
+                                        <state key="normal" title="国外手机号检测"/>
+                                        <connections>
+                                            <action selector="checkNonChinaPhone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UHE-oO-PTA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Mp-kN-LJO">
+                                        <rect key="frame" x="176" y="387" width="62" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="F68-AV-sK2"/>
+                                        </constraints>
+                                        <state key="normal" title="邮箱检测"/>
+                                        <connections>
+                                            <action selector="checkEmail:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ZK-ca-jF1"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="18202556569" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m77-61-BTi">
+                                        <rect key="frame" x="30" y="307" width="354" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="MdB-gW-Rwi"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vAP-Aa-31H" firstAttribute="centerX" secondItem="IFj-q9-R8b" secondAttribute="centerX" id="1il-7E-6i8"/>
+                                    <constraint firstItem="wMo-gz-cVq" firstAttribute="centerX" secondItem="IFj-q9-R8b" secondAttribute="centerX" id="B90-md-sg8"/>
+                                    <constraint firstItem="7Mp-kN-LJO" firstAttribute="centerX" secondItem="IFj-q9-R8b" secondAttribute="centerX" id="P4e-Dg-Eko"/>
+                                    <constraint firstItem="7Mp-kN-LJO" firstAttribute="top" secondItem="m77-61-BTi" secondAttribute="bottom" constant="30" id="Uc0-vC-bU8"/>
+                                    <constraint firstItem="vAP-Aa-31H" firstAttribute="top" secondItem="7Mp-kN-LJO" secondAttribute="bottom" constant="30" id="cv0-Zt-CAB"/>
+                                    <constraint firstAttribute="trailing" secondItem="m77-61-BTi" secondAttribute="trailing" constant="30" id="o6d-gB-zP4"/>
+                                    <constraint firstItem="7Mp-kN-LJO" firstAttribute="centerY" secondItem="IFj-q9-R8b" secondAttribute="centerY" id="vbk-NV-aXq"/>
+                                    <constraint firstItem="wMo-gz-cVq" firstAttribute="top" secondItem="vAP-Aa-31H" secondAttribute="bottom" constant="30" id="wJ0-i6-T8p"/>
+                                    <constraint firstItem="m77-61-BTi" firstAttribute="leading" secondItem="IFj-q9-R8b" secondAttribute="leading" constant="30" id="zcx-ab-3Gs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IFj-q9-R8b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8kN-Kp-NL4"/>
+                            <constraint firstItem="IFj-q9-R8b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="DyI-1C-HKr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IFj-q9-R8b" secondAttribute="bottom" id="tuO-Ma-KIj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFj-q9-R8b" secondAttribute="trailing" id="uuk-02-hUE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="m77-61-BTi" id="1EH-Y1-8q4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>

@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "SDTool.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -19,5 +22,31 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)checkEmail:(id)sender {
+   BOOL result = [SDTool checkEmailFormatFor:self.textField.text];
+    if (result) {
+        NSLog(@"OK");
+    }else{
+        NSLog(@"Error");
+    }
+}
+
+- (IBAction)checkNonChinaPhone:(id)sender {
+    BOOL result = [SDTool checkNonChineseMobileFormatFor:self.textField.text];
+    if (result) {
+        NSLog(@"OK");
+    }else{
+        NSLog(@"Error");
+    }
+}
+
+- (IBAction)checkChinaPhone:(id)sender {
+    BOOL result = [SDTool checkChineseMobileFormatFor:self.textField.text];
+    if (result) {
+        NSLog(@"OK");
+    }else{
+        NSLog(@"Error");
+    }
+}
 
 @end
